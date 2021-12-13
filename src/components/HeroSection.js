@@ -1,7 +1,6 @@
 import React from 'react';
 import '../App.css';
 import "./HeroSection.css";
-import { HashLink } from 'react-router-hash-link';
 
 
 

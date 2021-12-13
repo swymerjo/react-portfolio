@@ -9,10 +9,10 @@ function Footer() {
           <h3 id="contact-email">sammyjowymerpsych@gmail.com</h3> 
         </section>
         <section className='footer-social-icons'>
-        <i class='fab fa-twitter social-icons' />    
-        <i class='fab fa-github social-icons' />    
-        <i class='fab fa-linkedin social-icons' />    
-        <i class='fab fa-instagram social-icons' />     
+        <i className='fab fa-twitter social-icons' />    
+        <i className='fab fa-github social-icons' />    
+        <i className='fab fa-linkedin social-icons' />    
+        <i className='fab fa-instagram social-icons' />     
         </section>
         </div>
     )
