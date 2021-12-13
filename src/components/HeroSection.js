@@ -1,6 +1,8 @@
 import React from 'react';
 import '../App.css';
 import "./HeroSection.css";
+import { HashLink } from 'react-router-hash-link';
+
 
 
 function HeroSection() {
@@ -9,8 +11,9 @@ function HeroSection() {
       <video src='/videos/video-4.mp4' autoPlay loop muted />
       <h1>SAMMY WYMER</h1>
       <p>Front-end developer</p>
-     <span> <button className="projects-button">Projects</button>
-      <button className="contact-button">Contact</button></span>
+     <span> 
+       <a href='/ProjectCards#project-title' className="projects-button">Projects</a>
+      <a href="/Footer#contact-email" className="contact-button">Contact</a></span>
     </div>
   );
 }

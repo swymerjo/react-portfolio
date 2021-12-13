@@ -5,7 +5,7 @@ import ProjectCardsItem from './ProjectCardsItem';
 export default function ProjectCards() {
     return (
         <div className='project-cards'>
-        <h1>Check out my work:</h1>
+        <h1 id="project-title">Check out my work:</h1>
         <div className='project-cards-container'>
         <div className='project-cards-wrapper'>
         <ul className="project-cards-items">
