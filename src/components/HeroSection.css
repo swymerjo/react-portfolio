@@ -64,3 +64,10 @@ object-fit: contain;
   .hero-container > p {
     font-size: 30px;
   }
+
+  @media (max-width:760px){
+  .hero-container{
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
