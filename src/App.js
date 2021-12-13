@@ -1,20 +1,19 @@
 import React from 'react';
 import './App.css';
-import HeroSection from './components/HeroSection';
-import ProjectCards from './components/ProjectCards';
-import Footer from './components/Footer';
+import Home from './components/pages/Home';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 
 
-function App() {
+export default function App(){
   return (
-    <div className="App">
-   <HeroSection />
-   <ProjectCards />
-   <Footer />
-    </div>
+    <>
+      <Router>
+        <Routes>
+        <Route path="/" element={<Home />}></Route>
+        </Routes>
+      </Router>
+    </>
   );
 }
-
-export default App;
