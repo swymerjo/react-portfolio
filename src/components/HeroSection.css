@@ -52,6 +52,9 @@ object-fit: contain;
   }
 
 @media screen and (max-width: 960px) {
+  .hero-container{
+    background: url('../img-1.jpg') center center/cover no-repeat;
+  }
     .hero-container > h1 {
       font-size: 70px;
       margin-top: -150px;
