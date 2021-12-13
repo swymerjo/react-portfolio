@@ -15,7 +15,7 @@
     margin: 0 auto;
 }
 .project-cards-wrapper{
-position: relative;
+  position: relative;
   margin: 50px 0 45px;
 }
 
@@ -88,4 +88,18 @@ position: relative;
     overflow: hidden;
     text-decoration: none;
     margin-bottom: 20px;
+  }
+
+
+  
+  @media only screen and (min-width: 1024px) {
+    .project-cards-items {
+      display: flex;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .project-card-item {
+      margin-bottom: 2rem;
+    }
   }

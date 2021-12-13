@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import HeroSection from './components/HeroSection';
 import ProjectCards from './components/ProjectCards';
+import Footer from './components/Footer';
 
 
 
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
    <HeroSection />
    <ProjectCards />
+   <Footer />
     </div>
   );
 }
