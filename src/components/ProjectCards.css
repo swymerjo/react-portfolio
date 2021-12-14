@@ -1,6 +1,7 @@
 .project-cards{
     padding: 4rem;
-    background: #fff;
+    background: #242424;
+    color: white;
   }
   .project-cards > h1{
       text-align: center;
@@ -27,6 +28,7 @@
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
+    background: whitesmoke;
   }
 
 .project-cards-item-pic-wrap {
@@ -45,7 +47,7 @@
     font-size: 12px;
     font-weight: 700;
     color: #fff;
-    background-color: coral;
+    background-color: #CC3506;
     border-radius: 4px;
     box-sizing: border-box;
   }
@@ -74,7 +76,7 @@
   .project-cards-item-text{
     color: #252e48;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 22px;
   }
 
   .item-wrap {
@@ -101,4 +103,8 @@
     .project-card-item {
       margin-bottom: 2rem;
     }
+    .project-cards-item-text{
+      text-align: center;
+    }
+  
   }
