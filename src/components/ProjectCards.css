@@ -78,7 +78,9 @@
     font-size: 18px;
     line-height: 22px;
   }
-
+.project-a-link{
+  text-decoration: none;
+}
   .item-wrap {
     display: flex;
     flex-flow: column;
