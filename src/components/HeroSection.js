@@ -6,7 +6,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 
 function HeroSection() {
   return (
-    <div className='hero-container'>
+    <div className='hero-container' id="hero">
       <video src='/videos/video-4.mp4' autoPlay loop muted />
       <h1>SAMMY WYMER</h1>
       <p>Front-end developer</p>

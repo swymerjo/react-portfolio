@@ -27,6 +27,7 @@
     font-size: 50px;
     padding: 50px;
     padding-bottom: 10px;
+    color: white;
 }
 .fa-twitter{
     color: #1EA1F1;
@@ -44,6 +45,17 @@
     background: #d6249f;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
     box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+
+.scroll-to-top{
+    color: white;
+    background: transparent;
+    font-size: 14pt;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 2px;
 }
 
 @media (max-width: 750px){
