@@ -10,7 +10,7 @@ function ProjectCardsItem(props) {
         <img src={props.src} className='project-cards-item-pic' alt="project-pic"/>
         </figure>
         <div className='project-card-item-info'>
-        <h5 className='project-cards-item-text'>{props.text}</h5>
+        <a className="project-a-link" target="_blank" rel="noreferrer" href={props.path}><h5 className='project-cards-item-text'>{props.text}</h5></a>
         </div>
         </div>
         </li>
